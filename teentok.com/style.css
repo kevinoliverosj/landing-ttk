@@ -1,0 +1,61 @@
+h1{
+    color: blue;
+}
+
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: #fff; /* Reemplaza var(--bs-white) con el color correspondiente */
+    --bs-btn-bg: #6a0dad; /* Reemplaza var(--bd-violet-bg) con el color correspondiente */
+    --bs-btn-border-color: #6a0dad; /* Reemplaza var(--bd-violet-bg) con el color correspondiente */
+    --bs-btn-hover-color: #fff; /* Reemplaza var(--bs-white) con el color correspondiente */
+    --bs-btn-hover-bg: #5d0b9b; /* Calcula el color de sombreado usando tu propia función */
+    --bs-btn-hover-border-color: #5d0b9b; /* Calcula el color de sombreado usando tu propia función */
+    --bs-btn-focus-shadow-rgb: #6a0dad; /* Reemplaza var(--bd-violet-rgb) con el color correspondiente */
+    --bs-btn-active-color: #fff; /* Reemplaza var(--bs-btn-hover-color) con el color correspondiente */
+    --bs-btn-active-bg: #4f0874; /* Calcula el color de sombreado usando tu propia función */
+    --bs-btn-active-border-color: #4f0874; /* Calcula el color de sombreado usando tu propia función */
+    border-radius: 20px; /* Cambia este valor según lo redondo que quieras que sea el botón */
+  }
+
+  .btn-bd-outline {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: #6a0dad; /* Reemplaza var(--bs-white) con el color correspondiente */
+    --bs-btn-bg: #fff; /* Reemplaza var(--bd-violet-bg) con el color correspondiente */
+    --bs-btn-border-color: #6a0dad; /* Reemplaza var(--bd-violet-bg) con el color correspondiente */
+    --bs-btn-hover-color: #fff; /* Reemplaza var(--bs-white) con el color correspondiente */
+    --bs-btn-hover-bg: #5d0b9b; /* Calcula el color de sombreado usando tu propia función */
+    --bs-btn-hover-border-color: #5d0b9b; /* Calcula el color de sombreado usando tu propia función */
+    --bs-btn-focus-shadow-rgb: #6a0dad; /* Reemplaza var(--bd-violet-rgb) con el color correspondiente */
+    --bs-btn-active-color: #fff; /* Reemplaza var(--bs-btn-hover-color) con el color correspondiente */
+    --bs-btn-active-bg: #4f0874; /* Calcula el color de sombreado usando tu propia función */
+    --bs-btn-active-border-color: #4f0874; /* Calcula el color de sombreado usando tu propia función */
+    border-radius: 20px; /* Cambia este valor según lo redondo que quieras que sea el botón */
+
+}
+.custom-brand {
+    font-size: 24px;
+    color: #6a0dad;
+  }
+
+.carousel-inner{
+    max-height: 100vh;
+}
+
+.ub-sections{
+    height: 75vh;
+}
+/* .carousel-item{
+    max-height: 100%;
+} */
+
+.bg-bd-secondary{
+    background-color: #F5F5F5;
+}
+  
+.input-standard{
+    max-width: 300px;
+}
+
+.input-small{
+    max-width: 150px;
+}
